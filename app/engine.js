@@ -123,11 +123,10 @@ var engine;
     incGrandmaVol: function(value){
       grandma.vol += value;
     },
+
     incGrandmaPPS: function(value) {
       grandma.pps += value;
     },
-
-
 
     setFarmPrice: function(value) {
       farm.price = value
