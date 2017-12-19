@@ -1,0 +1,111 @@
+/*GENERAL SETTINGS*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fffc00;
+}
+html {
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  display: block;
+
+}
+.center {
+  margin: auto;
+}
+/*SAVE & QUICK*/
+.save {
+  float: right;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.save .escape{
+  height: 50px;
+  width: 150px;
+  background-image: url('../images/exit.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.save p {
+  margin: 0;
+}
+
+.save:active {
+  transform: scale(1.2);
+}
+.save:hover {
+  cursor: pointer;
+}
+
+/* SECTION clickArea*/
+div.cookie{
+  background-image: url('../images/cookie.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  margin-bottom: 2rem;
+
+}
+div.cookie:hover {
+  transform: scale(1.2);
+  transition: transform .25 easy;
+  cursor: pointer;
+}
+
+div.cookie:active {
+  border: 5px solid transparent;
+
+}
+.dropArea .row .col-12 {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Slabo;
+}
+h2 {
+
+  font-family: Slabo;
+  font-size: 1rem;
+  line-height: 50px;
+}
+
+/*SECTION infroArea*/
+
+.makers {
+  font-size: 20px;
+  line-height: 40px;
+}
+#infoArea button {
+  height: 100%;
+  width:100%;
+  border: 1px solid rgb(23, 46, 51);
+}
+
+.cost {
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+.score {
+  text-align: center;
+  font-size: 40px;
+}
+.amount, .productivity {
+  color: white;
+}
