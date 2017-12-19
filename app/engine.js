@@ -75,7 +75,7 @@ var engine;
     },
 
     getCursorPrice: function(){
-      return cursor.price;
+      return Math.floor(cursor.price);
     },
 
     incCursorPrice: function(value) {
@@ -105,7 +105,7 @@ var engine;
     },
 
     getGrandmaPrice: function() {
-      return grandma.price;
+      return Math.floor(grandma.price);
     },
 
     getGrandmaVol: function() {
@@ -142,7 +142,7 @@ var engine;
     },
 
     getFarmPrice: function() {
-      return farm.price;
+      return Math.floor(farm.price);
     },
 
     getFarmVol: function() {
@@ -176,7 +176,7 @@ var engine;
     },
 
     getBakeryPrice: function() {
-      return bakery.price;
+      return Math.floor(bakery.price);
     },
 
     getBakeryVol: function() {
@@ -211,7 +211,7 @@ var engine;
     },
 
     getMinePrice: function() {
-      return mine.price;
+      return Math.floor(mine.price);
     },
 
     getMineVol: function() {
