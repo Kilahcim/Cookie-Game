@@ -157,7 +157,7 @@ button.on('click', function(){
     engine.incMineVol(1);
     $(displayAmount).find('div.popup span.amountOfMakers').text(engine.getMineVol());
 
-    var incrementPPS = (engine.getMinePPS(260));
+    engine.incMinePPS(260);
     $(displayAmount).find('div.popup span.pps').text(engine.getMinePPS());
 
     engine.incProductPerSecond(260);

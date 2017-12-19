@@ -219,7 +219,7 @@ var engine;
     },
 
     getMinePPS: function() {
-      return mine.pps * mine.vol;
+      return mine.pps;
     },
 
     incMinePrice: function(value) {
